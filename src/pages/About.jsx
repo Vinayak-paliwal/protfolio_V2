@@ -7,6 +7,7 @@ import ring2Img from '../assets/images/global/ring2.png';
 import sShape1RotateImg from '../assets/images/global/s-shape1rotate.png';
 import sShape3Img from '../assets/images/global/s-shape3.png';
 import socialHoverImg from '../assets/images/global/social-hover.png';
+import resumeFile from '../assets/vinayak_fullStack_resume.pdf';
 
 const About = () => {
     return (
@@ -59,7 +60,7 @@ const About = () => {
                                 {/* /cmn-box/ */}
                                 <div className="d-flex align-items-center justify-content-between mb-10">
                                     <h5 className="fw_500 n0-color">My Experience</h5>
-                                    <a href="/src/assets/vinayak_fullStack_resume.pdf" download className="exprience-download">
+                                    <a href={resumeFile} download className="exprience-download">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M9.32031 11.6797L11.8803 14.2397L14.4403 11.6797" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                                             <path d="M11.8828 4V14.17" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />

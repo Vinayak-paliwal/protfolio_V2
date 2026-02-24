@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import $ from 'jquery';
+import resumeFile from '../assets/vinayak_fullStack_resume.pdf';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -71,7 +72,7 @@ const Navbar = () => {
                                         </li>
                                     </ul>
                                     <div className="d-flex justify-content-center m-auto m-lg-0 justify-content-lg-end">
-                                        <a href="/src/assets/vinayak_fullStack_resume.pdf" download className="kewta-btn d-flex align-items-center">
+                                        <a href={resumeFile} download className="kewta-btn d-flex align-items-center">
                                             <span className="kew-text">Download Resume</span>
                                             <span className="kew-arrow">
                                                 <div className="kt-one">
