@@ -7,7 +7,7 @@ import ring2Img from '../assets/images/global/ring2.png';
 import sShape1RotateImg from '../assets/images/global/s-shape1rotate.png';
 import sShape3Img from '../assets/images/global/s-shape3.png';
 import socialHoverImg from '../assets/images/global/social-hover.png';
-import resumeFile from '../assets/vinayak_fullStack_resume.pdf';
+import resumeFile from '../assets/vinayak_fullStack_resumee.pdf';
 
 const About = () => {
     return (

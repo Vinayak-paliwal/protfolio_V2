@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import $ from 'jquery';
-import resumeFile from '../assets/vinayak_fullStack_resume.pdf';
+import resumeFile from '../assets/vinayak_fullStack_resumee.pdf';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
